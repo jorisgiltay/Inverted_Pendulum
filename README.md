@@ -6,7 +6,9 @@ Eventual goal of this project is to train a Convolutional Neural Network (CNN), 
 Then let the pendulum be stabilized by the CNN, as a proof that the setup is controllable and can work mechanically, I implemented LQR control first.
 
 # Hardware (LQR control)
-Components:
+
+## Components:
+
 * 2x Arduino Nano
 * 1x Cytron 10Amp 5-30 V DC Motor Driver
 * 1x Variable Power Supply
@@ -25,7 +27,8 @@ Components:
 * Bunch of M3, M4 and M5 nuts and bolts
 * Wooden plank of 600mm by 250mm
 
-Animation of the model:
+## Animation of the model:
+
 ![Alt Text](Pictures/CAD_Animation.gif)
 
 # Software
