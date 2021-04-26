@@ -29,7 +29,7 @@ Used quite some code from [this project](https://create.arduino.cc/projecthub/zj
 * Bunch of M3, M4 and M5 nuts and bolts
 * Wooden plank of 600mm by 250mm
 
-## Animation of the model:
+## Animation of the CAD model:
 
 ![Alt Text](Pictures/CAD_Animation.gif)
 
