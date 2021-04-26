@@ -23,10 +23,16 @@ Components:
 * MPU6050 (optional, not currently used)
 * 20 mA LED, 270 Ohm resistor, switch button
 * Bunch of M3, M4 and M5 nuts and bolts
+* Wooden plank of 600mm by 250mm
+
+Animation of the model:
+![Alt Text](Pictures/CAD_Animation.gif)
 
 # Software
-The pendulum will try and swing up between hard set bounds (140mm on each side). When it enters a controllable region the LQR control takes over:
+The pendulum will try and swing up between hard set bounds (140mm on each side). When it enters a controllable region the LQR control takes over (click on link for video):
 
 [![Demo](https://img.youtube.com/vi/xbCsyzsChe0/0.jpg)](https://www.youtube.com/watch?v=xbCsyzsChe0)
 
+
+#
 
