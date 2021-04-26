@@ -57,7 +57,6 @@ void loop()
   Wire.write(theta_bytes,4);
   Wire.write(theta_dot_bytes,4);
  
-
   Wire.endTransmission();    // stop transmitting
   delay(5);
 }
