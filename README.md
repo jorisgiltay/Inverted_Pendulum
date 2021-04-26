@@ -1,4 +1,4 @@
-# Inverted_Pendulum
+# Inverted Pendulum
 Repo for different files regarding inverted pendulum project.
 
 Eventual goal of this project is to train a Convolutional Neural Network (CNN), on simulated pendulum footage.
