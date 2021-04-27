@@ -3,7 +3,7 @@
 #define REF_OUT_A 2 // PD3
 #define REF_OUT_B 3 // PD2
 #define MOTOR_ENCODER_PPR  2797
-#define POSITION_LIMIT 0.14
+#define POSITION_LIMIT 0.18
 
 #define PWM_PIN 10
 #define DIR_PIN 8
@@ -29,7 +29,7 @@
 //#define Kth 32.5
 //#define Kw  6.7
 
-const float THETA_THRESHOLD = PI / 14;
+const float THETA_THRESHOLD = PI / 16;
 bool moveleft = true;
 bool from_control = false;
 bool return_to_center = false;
@@ -151,7 +151,7 @@ void loop() {
     lastTimeMicros = now;
   
      
-  //  Serial.print(theta);
+    Serial.println(theta);
   //  Serial.print(",");
   //  Serial.println(theta_dot);
   //  Serial.print(",");
