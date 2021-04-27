@@ -10,6 +10,9 @@ Used quite some code from [this project](https://create.arduino.cc/projecthub/zj
 Pictures of the first prototype below:
 
 ![Pend1](Pictures/Pend1.jpeg)
+![Pend2](Pictures/Pend2.jpeg)
+![Pend3](Pictures/Pend3.jpeg)
+
 
 # Hardware (LQR control)
 
