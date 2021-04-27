@@ -83,9 +83,20 @@ void setup() {
 }
 
 void loop() {
-  //Only loop this when the switch is turned on
+  //Only loop this when the switch is turned on, if not return to center.
   if(digitalRead(BTN_PIN) == 0){
-    driveMotor(0);
+      x = getCartDistance(refEncoderValue, MOTOR_ENCODER_PPR);
+      while(x > 0.001){
+        x = getCartDistance(refEncoderValue, MOTOR_ENCODER_PPR);
+        driveMotor(-70);
+          }
+      while(x < -0.001){
+        x = getCartDistance(refEncoderValue, MOTOR_ENCODER_PPR);
+        driveMotor(70);
+      }
+        driveMotor(0);
+     
+    
     digitalWrite(LED_PIN, LOW);
   }
   else{
@@ -115,10 +126,10 @@ void loop() {
     if (!isControllable(theta) && fabs(x) < POSITION_LIMIT && from_control == false && return_to_center == false){
   
       if(fabs(theta) > 2  && theta_dot >= 0){
-          driveMotor(240);
+          driveMotor(254);
       }
       else if (fabs(theta)> 2 && theta_dot <0){
-          driveMotor(-240);
+          driveMotor(-254);
       }
     }
   
@@ -151,7 +162,7 @@ void loop() {
     lastTimeMicros = now;
   
      
-    Serial.println(theta);
+  //  Serial.println(theta);
   //  Serial.print(",");
   //  Serial.println(theta_dot);
   //  Serial.print(",");
