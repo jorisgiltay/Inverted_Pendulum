@@ -9,9 +9,8 @@ Used quite some code from [this project](https://create.arduino.cc/projecthub/zj
 
 Pictures of the first prototype below:
 
-![Pend1](Pictures/Pend1.jpeg =100x20)
-![Pend2](Pictures/Pend2.jpeg =100x20 )
-![Pend3](Pictures/Pend3.jpeg =100x20)
+<img src="Pictures/Pend1.jpg" alt="drawing" width="200"/>
+
 
 
 # Hardware (LQR control)
