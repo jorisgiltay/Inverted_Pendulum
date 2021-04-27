@@ -9,7 +9,7 @@ Used quite some code from [this project](https://create.arduino.cc/projecthub/zj
 
 Pictures of the first prototype below:
 
-<img src="Pictures/Pend1.jpg" alt="drawing" width="200"/>
+<img src="Pictures/Pend1.jpeg" alt="drawing" width="200"/>
 
 
 
