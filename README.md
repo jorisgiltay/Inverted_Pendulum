@@ -7,6 +7,10 @@ Then let the pendulum be stabilized by the CNN, as a proof that the setup is con
 
 Used quite some code from [this project](https://create.arduino.cc/projecthub/zjor/inverted-pendulum-on-a-cart-199d6f) , which was a huge help! 
 
+Pictures of the first prototype below:
+
+![Pend1](Pictures/Pend1.jpg)
+
 # Hardware (LQR control)
 
 ## Components:
