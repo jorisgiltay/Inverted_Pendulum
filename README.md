@@ -40,5 +40,12 @@ The pendulum will try and swing up between hard set bounds (140mm on each side).
 
 The 2 arduino nano's communicate over ISP, the main reason for using another Arduino is that we do not suffer resolution loss of the encoder of the motor and pendulum, because we can use both the A and B channels of the quadrature signal on interuptable pins (pins 2 and 3)
 
+# TODO
 
+- [ ] Rearrange wiring
+- [ ] Get small 12V (~100Watt) power supply
+- [ ] Read out cart accelerations with MPU6050
+- [ ] Migrate to NVIDIA Jetson Nano 
+- [ ] Add double pendulum (need to find a way to neatly fix wiring for third encoder for this)
+- [ ] Make the thing sort of portable
 
