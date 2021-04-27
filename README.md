@@ -42,8 +42,8 @@ The 2 arduino nano's communicate over ISP, the main reason for using another Ard
 
 # TODO
 
-- [ ] Add feet with silicon strip to prevent sliding 
-- [ ] Add middle of rails indicator 
+- [x] Add feet with silicon strip to prevent sliding 
+- [x] Add middle of rails indicator 
 - [ ] Rearrange wiring
 - [ ] Get small 12V (~100Watt) power supply
 - [ ] Read out cart accelerations with MPU6050
