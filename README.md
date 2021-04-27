@@ -42,10 +42,13 @@ The 2 arduino nano's communicate over ISP, the main reason for using another Ard
 
 # TODO
 
+- [ ] Add feet with silicon strip to prevent sliding 
+- [ ] Add middle of rails indicator 
 - [ ] Rearrange wiring
 - [ ] Get small 12V (~100Watt) power supply
 - [ ] Read out cart accelerations with MPU6050
 - [ ] Migrate to NVIDIA Jetson Nano 
 - [ ] Add double pendulum (need to find a way to neatly fix wiring for third encoder for this)
 - [ ] Make the thing sort of portable
+
 
