@@ -117,7 +117,7 @@ void loop() {
       control = (Kx * x + Kv * v + Kth * theta + Kw * theta_dot);
       u = (control + A * v + copysignf(C, v)) / B;
       u = 255.0 * u / 12.0;
-      driveMotor(saturate(u, 254));
+      driveMotor(saturate(u, 220));
     } else {
       driveMotor(0);
     }
@@ -126,10 +126,10 @@ void loop() {
     if (!isControllable(theta) && fabs(x) < POSITION_LIMIT && from_control == false && return_to_center == false){
   
       if(fabs(theta) > 2  && theta_dot >= 0){
-          driveMotor(254);
+          driveMotor(220);
       }
       else if (fabs(theta)> 2 && theta_dot <0){
-          driveMotor(-254);
+          driveMotor(-220);
       }
     }
   
@@ -162,13 +162,13 @@ void loop() {
     lastTimeMicros = now;
   
      
-  //  Serial.println(theta);
-  //  Serial.print(",");
-  //  Serial.println(theta_dot);
-  //  Serial.print(",");
-  //  Serial.print(x);
-  //  Serial.print(",");
-  //  Serial.println(v);
+    Serial.println(theta);
+    Serial.print(",");
+    Serial.print(theta_dot);
+    Serial.print(",");
+    Serial.print(x);
+    Serial.print(",");
+    Serial.println(v);
     delay(5);
   }
 }
