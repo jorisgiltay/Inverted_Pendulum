@@ -9,7 +9,7 @@ Used quite some code from [this project](https://create.arduino.cc/projecthub/zj
 
 Pictures of the first prototype below:
 
-![Pend1](Pictures/Pend1.jpg)
+![Pend1](Pictures/Pend1.jpeg)
 
 # Hardware (LQR control)
 
